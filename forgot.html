@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <div class="forgot">
+    <h2>Forgot Password</h2>
+    <form>
+      Enter Email ID:<br />
+      <input type="email" /><br /><br />
+      <input id="submit" type="submit" value="Reset Password" onclick="resetPassword()" />
+    </form>
+    <script>
+      function resetPassword() {
+        const email = document.querySelector('input[type="email"]').value;
+        if (email) {
+          alert(`Password reset link has been sent to ${email}`);
+        } else {
+          alert("Please enter a valid email ID.");
+        }
+      }
+    </script>
+    </div>
+  </body>
+</html>

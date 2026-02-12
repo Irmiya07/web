@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="cart.xsl"?>
+
+<Cart>
+    <User>
+        <Name>Irmiya</Name>
+    </User>
+
+    <Items>
+        <Item>
+            <Product>Wireless Mouse</Product>
+            <Price>499</Price>
+            <Quantity>2</Quantity>
+        </Item>
+
+        <Item>
+            <Product>Keyboard</Product>
+            <Price>799</Price>
+            <Quantity>1</Quantity>
+        </Item>
+
+        <Item>
+            <Product>USB Cable</Product>
+            <Price>199</Price>
+            <Quantity>3</Quantity>
+        </Item>
+    </Items>
+</Cart>
